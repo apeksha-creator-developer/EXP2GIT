@@ -1,1 +1,23 @@
+mkdir my-project
+cd my-project
+git init
+Ls -la
+touch exp1.txt
+vi exp1.txt
+Ls -la
+git status
+git add exp1.txt
+git commit -m "Add main source file"
+
+
+touch .gitignore
+code .gitignore (ignore this line)
+git add .gitignore
+git commit -m "Add gitignore for temporary and log files"
+touch test.tmp
+touch application.log
+touch backup.temp
+git status
+git ls-files
+git status --ignored
 
